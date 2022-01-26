@@ -9,6 +9,36 @@ $footer-image: "http://via.placeholder.com/50x50";
 $social-icons: "http://via.placeholder.com/15x15";
 
 body {
-  display: flex;
-  justify-content: center;
+	// display: flex;
+	// justify-content: center;
+	background-color: $background-color;
+}
+
+.flexbox-container {
+	display: flex;
+}
+
+nav {
+	display: flex;
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: $text-dark-color;
+		li {
+			float: left;
+			// border-right: 1px solid #bbb;
+			a {
+				display: block;
+				color: $text-light-color;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+			a:hover:not(.active) {
+				background-color: $primary-color;
+			}
+		}
+	}
 }
