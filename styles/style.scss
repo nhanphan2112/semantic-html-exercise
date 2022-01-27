@@ -16,16 +16,22 @@ body {
 
 .flexbox-container {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flexbox-item {
+	width: 60%;
 }
 
 nav {
-	display: flex;
 	ul {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
 		background-color: $text-dark-color;
+		border-radius: 5px;
 		li {
 			float: left;
 			// border-right: 1px solid #bbb;
@@ -40,5 +46,19 @@ nav {
 				background-color: $primary-color;
 			}
 		}
+	}
+}
+
+.feature-article {
+	background-color: $text-light-color;
+	border-radius: 5px;
+	h2,
+	a {
+		color: $primary-color;
+	}
+
+	a:hover:not(.active) {
+		background-color: $primary-color;
+		color: $text-light-color;
 	}
 }

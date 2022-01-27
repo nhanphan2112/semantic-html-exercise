@@ -6,12 +6,17 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.flexbox-item {
+  width: 60%;
 }
 
 nav ul {
@@ -20,6 +25,7 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #000305;
+  border-radius: 5px;
 }
 
 nav ul li {
@@ -36,5 +42,20 @@ nav ul li a {
 
 nav ul li a:hover:not(.active) {
   background-color: #c74350;
+}
+
+.feature-article {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.feature-article h2,
+.feature-article a {
+  color: #c74350;
+}
+
+.feature-article a:hover:not(.active) {
+  background-color: #c74350;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
