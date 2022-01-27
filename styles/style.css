@@ -45,8 +45,14 @@ nav ul li a:hover:not(.active) {
 }
 
 .feature-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #fff;
   border-radius: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .feature-article h2,
@@ -57,5 +63,24 @@ nav ul li a:hover:not(.active) {
 .feature-article a:hover:not(.active) {
   background-color: #c74350;
   color: #fff;
+}
+
+.feature-article img {
+  width: 250px;
+  height: 105px;
+}
+
+.feature-article .none-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 5px;
 }
 /*# sourceMappingURL=style.css.map */

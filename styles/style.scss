@@ -50,8 +50,10 @@ nav {
 }
 
 .feature-article {
+	display: flex;
 	background-color: $text-light-color;
 	border-radius: 5px;
+	align-items: center;
 	h2,
 	a {
 		color: $primary-color;
@@ -60,5 +62,17 @@ nav {
 	a:hover:not(.active) {
 		background-color: $primary-color;
 		color: $text-light-color;
+	}
+
+	img {
+		width: 250px;
+		height: 105px;
+	}
+
+	.none-image {
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+		margin: 5px;
 	}
 }
