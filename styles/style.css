@@ -82,6 +82,7 @@ nav ul li a:hover:not(.active) {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 20px;
 }
 
 .feature-article h2,
@@ -117,7 +118,7 @@ nav ul li a:hover:not(.active) {
 
 .feature-article .none-image h2 {
   margin: 0px;
-  font-weight: 400;
+  font-weight: 500;
   padding: 15px 0 5px 0px;
 }
 
@@ -131,5 +132,51 @@ nav ul li a:hover:not(.active) {
   margin: 0px;
   padding-bottom: 10px;
   width: 420px;
+}
+
+.article-list {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.article-list article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  border-bottom-style: inset;
+}
+
+.article-list h2 {
+  color: #c74350;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.article-list p {
+  margin: 0px;
+}
+
+.article-list span {
+  width: 150px;
+  padding: 25px;
+}
+
+.article-list div {
+  -ms-flex-negative: 10;
+      flex-shrink: 10;
+  padding: 20px;
+}
+
+.article-list a {
+  color: #c74350;
+}
+
+.article-list a:hover:not(.active) {
+  background-color: #c74350;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
