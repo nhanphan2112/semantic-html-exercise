@@ -189,6 +189,7 @@ nav ul li a:hover:not(.active) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: small;
 }
 
 .blogroll-social h2 {
@@ -207,6 +208,10 @@ nav ul li a:hover:not(.active) {
 .social {
   -ms-flex-negative: 4;
       flex-shrink: 4;
+}
+
+.social ul {
+  width: 80px;
 }
 
 .social li {
