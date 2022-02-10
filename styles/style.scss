@@ -174,11 +174,14 @@ nav {
 .social {
 	flex-shrink: 4;
 	li {
+		padding-top: 2px;
+		border-bottom: .3px solid pink;
 		img {
 			display: inline-block;
 		}
 		p {
 			display: inline-block;
+			margin:0;
 		}
 	}
 }

@@ -209,11 +209,17 @@ nav ul li a:hover:not(.active) {
       flex-shrink: 4;
 }
 
+.social li {
+  padding-top: 2px;
+  border-bottom: .3px solid pink;
+}
+
 .social li img {
   display: inline-block;
 }
 
 .social li p {
   display: inline-block;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
