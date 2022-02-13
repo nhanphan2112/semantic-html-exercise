@@ -163,31 +163,37 @@ nav {
 	font-size: small;
 	h2 {
 		color: $primary-color;
+		margin: 0;
+		padding-top: 20px;
 	}
 	ul {
 		list-style-type: none;
-		padding: 0;
+		padding: 5px 0 0 0;
+		margin: 0;
 		column-count: 3;
 		column-width: 120px;
+	}
+	li {
+		padding-top: 4px;
+		border-bottom: 0.3px ridge pink;
 	}
 }
 
 .social {
 	flex-shrink: 4;
-	ul{
-		width: 80px;
+	padding-left: 30px;
+	ul {
+		width: 100px;
 	}
 	li {
 		padding-top: 2px;
-		border-bottom: .3px solid pink;
+		border-bottom: 0.3px ridge pink;
 		img {
 			display: inline-block;
 		}
 		p {
 			display: inline-block;
-			margin:0;
+			margin: 0;
 		}
 	}
 }
-
-
