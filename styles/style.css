@@ -83,6 +83,8 @@ nav ul li a:hover:not(.active) {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   background-color: #fff;
   border-radius: 5px;
   -webkit-box-align: center;
@@ -194,12 +196,14 @@ nav ul li a:hover:not(.active) {
   display: -ms-flexbox;
   display: flex;
   font-size: small;
+  padding-bottom: 20px;
 }
 
 .blogroll-social h2 {
   color: #c74350;
   margin: 0;
   padding-top: 20px;
+  font-weight: 500;
 }
 
 .blogroll-social ul {
@@ -213,8 +217,13 @@ nav ul li a:hover:not(.active) {
 }
 
 .blogroll-social li {
-  padding-top: 4px;
+  padding-top: 8px;
   border-bottom: 0.3px ridge pink;
+}
+
+.blogroll-social li:hover:not(.active) {
+  background-color: #c74350;
+  color: #fff;
 }
 
 .social {
@@ -228,7 +237,6 @@ nav ul li a:hover:not(.active) {
 }
 
 .social li {
-  padding-top: 2px;
   border-bottom: 0.3px ridge pink;
 }
 
@@ -239,5 +247,77 @@ nav ul li a:hover:not(.active) {
 .social li p {
   display: inline-block;
   margin: 0;
+}
+
+.main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.main-footer header {
+  width: 400px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 0 50px 0 20px;
+}
+
+.main-footer header a {
+  color: #c74350;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.main-footer header a:hover:not(.active) {
+  background-color: #c74350;
+  color: #fff;
+}
+
+.main-footer header h2,
+.main-footer header p {
+  margin: 0;
+}
+
+.main-footer img {
+  width: 50px;
+  height: 50px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-right: 20px;
+}
+
+.main-footer p {
+  padding-right: 10px;
+}
+
+.sub-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.sub-footer time {
+  padding-right: 7px;
+}
+
+.sub-footer a {
+  color: #c74350;
+}
+
+.sub-footer a:hover:not(.active) {
+  background-color: #c74350;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
