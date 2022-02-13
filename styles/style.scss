@@ -75,6 +75,11 @@ nav {
 
 .feature-article {
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	// @media screen and (max-width: 1000px) {
+	// 	flex-wrap: wrap;
+	// }
 	background-color: $text-light-color;
 	border-radius: 5px;
 	align-items: center;
@@ -90,16 +95,15 @@ nav {
 	}
 
 	img {
-		width: 250px;
-		height: 105px;
 		padding-right: 20px;
 	}
 
 	.none-image {
-		display: flex;
-		flex-direction: column;
-		flex-grow: 1;
-		margin: 0px;
+		// display: flex;
+		// flex-direction: column;
+		// flex-grow: 1;
+		// margin: 0px;
+		flex-shrink: 2;
 		padding-left: 16px;
 		h2 {
 			margin: 0px;
@@ -147,6 +151,12 @@ nav {
 	span {
 		width: 150px;
 		padding: 25px;
+		time {
+			text-decoration: underline dotted;
+		}
+		address {
+			font-style: normal;
+		}
 	}
 	div {
 		flex-shrink: 10;
