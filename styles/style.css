@@ -113,22 +113,27 @@ nav ul li a:hover:not(.active) {
   padding-left: 16px;
 }
 
+.feature-article .none-image h2,
+.feature-article .none-image h3,
+.feature-article .none-image p {
+  font-weight: 500;
+}
+
 .feature-article .none-image h2 {
   margin: 0px;
-  font-weight: 500;
   padding: 15px 0 5px 0px;
 }
 
 .feature-article .none-image h3 {
   margin: 0px;
-  font-weight: 500;
   padding-bottom: 10px;
 }
 
 .feature-article .none-image p {
   margin: 0px;
   padding-bottom: 10px;
-  width: 420px;
+  width: 350px;
+  font-size: small;
 }
 
 .article-list {
@@ -145,6 +150,7 @@ nav ul li a:hover:not(.active) {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   border-bottom-style: inset;
+  font-weight: 500;
 }
 
 .article-list article:hover:not(.active) {
@@ -165,9 +171,11 @@ nav ul li a:hover:not(.active) {
 
 .article-list p {
   margin: 0px;
+  font-size: small;
 }
 
 .article-list span {
+  font-size: small;
   width: 150px;
   padding: 25px;
 }
@@ -195,7 +203,6 @@ nav ul li a:hover:not(.active) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: small;
   padding-bottom: 20px;
 }
 
@@ -210,14 +217,14 @@ nav ul li a:hover:not(.active) {
   list-style-type: none;
   padding: 5px 0 0 0;
   margin: 0;
-  -webkit-column-count: 3;
-          column-count: 3;
-  -webkit-column-width: 120px;
-          column-width: 120px;
+  -webkit-column-width: 150px;
+          column-width: 150px;
 }
 
 .blogroll-social li {
-  padding-top: 8px;
+  font-size: small;
+  font-weight: 430;
+  padding: 3px 0 3px 0px;
   border-bottom: 0.3px ridge pink;
 }
 
@@ -226,26 +233,31 @@ nav ul li a:hover:not(.active) {
   color: #fff;
 }
 
+.blogroll ul {
+  -webkit-column-count: 3;
+          column-count: 3;
+}
+
 .social {
-  -ms-flex-negative: 4;
-      flex-shrink: 4;
   padding-left: 30px;
 }
 
 .social ul {
-  width: 100px;
+  -webkit-column-count: 1;
+          column-count: 1;
 }
 
 .social li {
-  border-bottom: 0.3px ridge pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .social li img {
-  display: inline-block;
+  padding-right: 3px;
 }
 
 .social li p {
-  display: inline-block;
   margin: 0;
 }
 
@@ -260,6 +272,7 @@ nav ul li a:hover:not(.active) {
   background-color: #fff;
   border-radius: 5px;
   margin-bottom: 20px;
+  padding: 10px;
 }
 
 .main-footer header {
@@ -296,7 +309,9 @@ nav ul li a:hover:not(.active) {
 }
 
 .main-footer p {
+  font-weight: 500;
   padding-right: 10px;
+  font-size: small;
 }
 
 .sub-footer {
@@ -306,6 +321,8 @@ nav ul li a:hover:not(.active) {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+  font-size: small;
+  font-weight: 500;
 }
 
 .sub-footer time {
