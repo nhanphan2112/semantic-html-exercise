@@ -56,7 +56,6 @@ nav {
 		border-radius: 5px;
 		li {
 			float: left;
-			// border-right: 1px solid #bbb;
 			a {
 				display: block;
 				color: $text-light-color;
@@ -80,6 +79,7 @@ nav {
 	border-radius: 5px;
 	align-items: center;
 	margin-bottom: 20px;
+	padding: 15px 0 15px 0;
 	h2,
 	a {
 		color: $primary-color;
@@ -93,7 +93,7 @@ nav {
 	.none-image {
 		display: flex;
 		flex-direction: column;
-		flex-basis: 50%;
+		flex-basis: 60%;
 		h2,
 		h3,
 		p {
@@ -101,7 +101,7 @@ nav {
 		}
 		h2 {
 			margin: 0px;
-			padding: 15px 0 5px 0px;
+			padding-bottom: 5px;
 		}
 		h3 {
 			margin: 0px;
@@ -109,7 +109,6 @@ nav {
 		}
 		p {
 			margin: 0px;
-			padding-bottom: 10px;
 			font-size: small;
 		}
 	}
@@ -191,13 +190,13 @@ nav {
 }
 
 .blogroll {
+	width: 83%;
 	ul {
 		column-count: 3;
 	}
 }
 
 .social {
-	// flex-shrink: 2;
 	padding-left: 30px;
 	ul {
 		column-count: 1;
@@ -221,10 +220,8 @@ nav {
 	margin-bottom: 20px;
 	padding: 20px;
 	header {
-		// width: 400px;
 		flex-basis: 34%;
 		align-self: center;
-		// padding: 0 50px 0 20px;
 		a {
 			color: $primary-color;
 			text-decoration: none;
