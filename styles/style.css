@@ -146,12 +146,15 @@ nav ul li a:hover:not(.active) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   border-bottom-style: inset;
   font-weight: 500;
+  padding: 16px;
 }
 
 .article-list article:hover:not(.active) {
@@ -177,8 +180,9 @@ nav ul li a:hover:not(.active) {
 
 .article-list span {
   font-size: small;
-  width: 150px;
-  padding: 25px;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  padding-top: 4px;
 }
 
 .article-list span time {
@@ -188,12 +192,6 @@ nav ul li a:hover:not(.active) {
 
 .article-list span address {
   font-style: normal;
-}
-
-.article-list div {
-  -ms-flex-negative: 10;
-      flex-shrink: 10;
-  padding: 20px;
 }
 
 .article-list a {
@@ -226,7 +224,7 @@ nav ul li a:hover:not(.active) {
   font-size: small;
   font-weight: 430;
   padding: 3px 0 3px 0px;
-  border-bottom: 0.3px ridge pink;
+  border-bottom: 0.3px ridge #ffc0cb;
 }
 
 .blogroll-social li:hover:not(.active) {
