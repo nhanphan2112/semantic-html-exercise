@@ -119,7 +119,7 @@ nav ul li a:hover:not(.active) {
 .feature-article .none-image h2,
 .feature-article .none-image h3,
 .feature-article .none-image p {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .feature-article .none-image h2 {
@@ -153,7 +153,7 @@ nav ul li a:hover:not(.active) {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   border-bottom-style: inset;
-  font-weight: 500;
+  font-weight: 600;
   padding: 16px;
 }
 
@@ -169,7 +169,7 @@ nav ul li a:hover:not(.active) {
 
 .article-list h2 {
   color: #c74350;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0px;
 }
 
@@ -209,7 +209,7 @@ nav ul li a:hover:not(.active) {
   color: #c74350;
   margin: 0;
   padding-top: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .blogroll-social ul {
@@ -222,7 +222,7 @@ nav ul li a:hover:not(.active) {
 
 .blogroll-social li {
   font-size: small;
-  font-weight: 430;
+  font-weight: 600;
   padding: 3px 0 3px 0px;
   border-bottom: 0.3px ridge #ffc0cb;
 }
@@ -289,7 +289,7 @@ nav ul li a:hover:not(.active) {
 .main-footer header a {
   color: #c74350;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .main-footer header a:hover:not(.active) {
@@ -314,7 +314,7 @@ nav ul li a:hover:not(.active) {
 .main-footer p {
   -ms-flex-preferred-size: 64%;
       flex-basis: 64%;
-  font-weight: 500;
+  font-weight: 600;
   padding-right: 10px;
   font-size: small;
 }
@@ -327,7 +327,7 @@ nav ul li a:hover:not(.active) {
       -ms-flex-pack: end;
           justify-content: end;
   font-size: small;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .sub-footer time {
