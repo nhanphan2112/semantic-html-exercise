@@ -225,6 +225,7 @@ nav ul li a:hover:not(.active) {
   font-weight: 600;
   padding: 3px 0 3px 0px;
   border-bottom: 0.3px ridge #ffc0cb;
+  line-height: 19px;
 }
 
 .blogroll-social li:hover:not(.active) {
@@ -257,7 +258,9 @@ nav ul li a:hover:not(.active) {
 }
 
 .social li img {
-  padding-right: 3px;
+  padding-right: 8px;
+  width: 15px;
+  height: 15px;
 }
 
 .social li p {
