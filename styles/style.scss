@@ -121,7 +121,8 @@ nav {
     display: flex;
     // flex-basis: 60%;
     flex-direction: row-reverse;
-    border-bottom-style: inset;
+    // border-bottom-style: inset;
+    border-bottom: 1px inset;
     font-weight: 600;
     padding: 16px;
   }
@@ -145,7 +146,7 @@ nav {
   }
   span {
     font-size: small;
-    flex-basis: 32%;
+    flex-basis: 25%;
     padding-top: 4px;
     time {
       text-decoration: underline dotted;
@@ -155,8 +156,7 @@ nav {
     }
   }
   div {
-    // flex-shrink: 10;
-    // padding: 20px;
+    flex-basis: 75%;
   }
 
   a {
@@ -249,6 +249,9 @@ nav {
     p {
       margin: 0;
     }
+    h2{
+      line-height: 2rem;
+    }
   }
   img {
     width: 50px;
@@ -259,7 +262,6 @@ nav {
   p {
     flex-basis: 64%;
     font-weight: 600;
-    padding-right: 10px;
     font-size: small;
   }
 }

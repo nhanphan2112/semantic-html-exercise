@@ -150,7 +150,7 @@ nav ul li a:hover:not(.active) {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  border-bottom-style: inset;
+  border-bottom: 1px inset;
   font-weight: 600;
   padding: 16px;
 }
@@ -178,8 +178,8 @@ nav ul li a:hover:not(.active) {
 
 .article-list span {
   font-size: small;
-  -ms-flex-preferred-size: 32%;
-      flex-basis: 32%;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
   padding-top: 4px;
 }
 
@@ -190,6 +190,11 @@ nav ul li a:hover:not(.active) {
 
 .article-list span address {
   font-style: normal;
+}
+
+.article-list div {
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
 }
 
 .article-list a {
@@ -308,6 +313,10 @@ nav ul li a:hover:not(.active) {
   margin: 0;
 }
 
+.main-footer header h2 {
+  line-height: 2rem;
+}
+
 .main-footer img {
   width: 50px;
   height: 50px;
@@ -321,7 +330,6 @@ nav ul li a:hover:not(.active) {
   -ms-flex-preferred-size: 64%;
       flex-basis: 64%;
   font-weight: 600;
-  padding-right: 10px;
   font-size: small;
 }
 
