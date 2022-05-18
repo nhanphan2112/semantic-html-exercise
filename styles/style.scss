@@ -125,7 +125,7 @@ nav {
 		// border-bottom-style: inset;
 		border-bottom: 1px inset;
 		font-weight: 600;
-		padding: 16px;
+		padding: 17px;
 	}
 
 	article:hover:not(.active) {
@@ -140,6 +140,7 @@ nav {
 		color: $primary-color;
 		font-weight: 600;
 		margin: 0px;
+		padding-bottom: 2px;
 	}
 	p {
 		margin: 0px;
@@ -234,7 +235,7 @@ nav {
 	margin-bottom: 20px;
 	padding: 20px;
 	header {
-		flex-basis: 34%;
+		flex-basis: 33%;
 		align-self: center;
 		a {
 			color: $primary-color;
@@ -260,7 +261,7 @@ nav {
 		padding-right: 20px;
 	}
 	p {
-		flex-basis: 64%;
+		flex-basis: 66%;
 		font-weight: 600;
 		font-size: small;
 	}
